@@ -1,0 +1,29 @@
+.cards {
+  // margin: 15px 10px;
+  .card {
+    display: inline-block;
+    width: 31%;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: all 0.3s ease-in-out;
+    margin: 1.15%;
+    &:hover {
+      transform: scale(1.05);
+    }
+  }
+  .info {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    padding: 12px 10px;
+    color: #fff;
+    > h4 {
+      font-weight: 400;
+    }
+    > p {
+      margin-top: 4px;
+      font-size: 12px;
+    }
+  }
+}
